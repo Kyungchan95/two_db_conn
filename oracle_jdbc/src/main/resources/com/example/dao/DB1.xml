@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.example.dao1.DB1Mapper">
+    <select id="getDb1Dual" resulttype="java.lang.String">
+        SELECT 'DB1' FROM DUAL
+    </select> 
+</mapper>
